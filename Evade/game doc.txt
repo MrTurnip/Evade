@@ -1,0 +1,15 @@
+Game name: Evade
+Genre: Arcade
+Perspective: Top-down
+Summary: Zombies are running towards you and you must evade them letting them run into spikes.
+
+Spikes: Random placement, certain spots.
+Zombies: Different types (Different paths, different speed), follows player, player's position updated with a delay, colision with spikes - death.
+Zombie types: Basic - normal size, follows the player; Tank - big size, follows player slowly; Runner - smaller size, fastly follows the player;
+Player: Follows touch (Has a little delay), collision with spikes, zombies - death.
+
+Replayability value: Survive a wave to earn a coin, use coins to buy backgrounds, player skins (wizard, knight, shielded riot-policeman, armed policeman)
+Revenue: After dying a pop-up ad randomly appears, watch an ad video 4 times a day to earn 20 coins each, buy coins
+
+Note to self(1): Zombie walks towards a variable which is updated after a timer passes aquiring player's position.
+Note to self(2): Zombie type idea: blind - normal size, follows player only when he is walking.
